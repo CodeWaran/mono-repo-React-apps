@@ -18,7 +18,7 @@ Each project is built with **Vite** for fast development and optimized builds.
 - `package.json` → root scripts
 
 
+<img width="907" height="588" alt="image" src="https://github.com/user-attachments/assets/ed288116-654b-4c2f-9c35-90a460ec93c5" />
 
-![Uploading image.png…]()
 
 
