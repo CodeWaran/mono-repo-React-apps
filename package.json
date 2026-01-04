@@ -1,0 +1,31 @@
+{
+  "name": "mono-repo-react-apps",
+  "version": "1.0.0",
+  "description": "List of all level of react projects",
+  "main": "index.js",
+  "scripts": {
+    "dev": "turbo run dev --parallel --filter=apps/*",
+    "build": "turbo run build --filter=apps/*",
+    "lint": "turbo run lint --filter=apps/*"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "packageManager": "pnpm@9.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeWaran/mono-repo-React-apps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/CodeWaran/mono-repo-React-apps/issues"
+  },
+  "homepage": "https://github.com/CodeWaran/mono-repo-React-apps#readme",
+  "devDependencies": {
+    "turbo": "^2.7.2"
+  }
+}
