@@ -4,9 +4,10 @@
   "description": "List of all level of react projects",
   "main": "index.js",
   "scripts": {
-    "dev": "turbo run dev --parallel --filter=apps/*",
-    "build": "turbo run build --filter=apps/*",
-    "lint": "turbo run lint --filter=apps/*"
+    "dev": "turbo run dev --parallel --filter=@apps/*",
+    "build": "turbo run build --filter=@apps/*",
+    "lint": "turbo run lint --filter=@apps/*",
+    "format": "prettier --write \"{apps,packages}/**/*.{js,jsx,ts,tsx,json,css,md}\""
   },
   "workspaces": [
     "apps/*",
@@ -26,6 +27,12 @@
   },
   "homepage": "https://github.com/CodeWaran/mono-repo-React-apps#readme",
   "devDependencies": {
+    "eslint": "^9.39.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "prettier": "^3.7.4",
     "turbo": "^2.7.2"
   }
 }
