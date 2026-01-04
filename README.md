@@ -18,3 +18,7 @@ Each project is built with **Vite** for fast development and optimized builds.
 - `package.json` → root scripts
 
 
+
+![Uploading image.png…]()
+
+
